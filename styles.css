@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Iosevka Charon Mono:400,700,900');
+
+* {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(images/wp13908388-frutiger-aero-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.webpage {
+    backdrop-filter: blur(10px);
+    border: 5px solid rgba(175, 175, 175, 0.508);
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.text-home {
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.top-bar {
+    background-color: #003d5ba3;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.top-bar button{
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 35px;
+    margin-top: 10px;
+    background: linear-gradient(180deg, #ffffff -40%, #007ea5, #003d5b);
+    color: white;
+    border: 2px solid white;
+    height: 40px;
+    width: 90px;
+    transition-duration: 0.5s;
+}
+
+.top-bar button:hover {
+    filter: brightness(1.3);
+    transition: 0.8s;
+}
+
+.top-bar button:active {
+    box-shadow: 0 2px rgb(0, 35, 77);
+    transform: translateY(2px);
+    transition-duration: 0.1s;
+}
+
+.top-bar button {
+    box-shadow: 0 4px rgb(0, 35, 77);
+}
+
+.about-image {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.video-web {
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+}
+
+.text-link {
+    color: rgb(25, 64, 126);
+    text-shadow: 0 1px rgb(0, 9, 16);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.webpage {
+    text-align: center; 
+    color: white; 
+    font-style: italic; 
+    text-decoration: none;
+}
+
+.webpage p {
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.logo-image {
+    width: 72px; margin-left: 2%;
+}
+
+.logo-image:hover {
+    filter: brightness(1.2);
+}
+
+.text-other {
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.page-name {
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.section-button {
+    margin: 10px 50px;
+    background-color: #05265be4;
+    width: 16%;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    border: 5px solid rgb(0, 31, 90);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-button img {
+    width: 80%;
+    border-radius: 7px;
+    border: 2px solid white;
+}
+
+.section-button:hover {
+    filter: brightness(1.2);
+}
+
+.article-image {
+    display: block; 
+    width: 100%; 
+    max-height: 259px; 
+    object-fit: cover; 
+    margin: 20px 0; 
+    align-items: center;
+    border-radius: 7px;
+    filter: blur(1px);
+
+}
+
+.banner-image {
+    display: block;
+    margin: 40px auto;
+    width: 80%;
+    outline: 5px solid white;
+    box-shadow: 0 0 60px rgba(0, 6, 9, 0.749);
+}
+
+.iframe-player-turbowarp {
+    background: linear-gradient(180deg, #47c2ff, #007ebd);
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 7px;
+}
+
+.iframe-player-turbowarp h3 {
+    font-family: 'Iosevka Charon Mono';
+}
+
+
+
+
+.other-text-font {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0 2px 2px rgb(0, 0, 0);
+}
+
+.web-button {
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 10px auto;
+    background: linear-gradient(180deg, #ffffff -40%, #007ea5, #003d5b);
+    color: white;
+    border: 2px solid white;
+    height: 40px;
+    width: 300px;
+    transition-duration: 0.5s;
+    display: block;
+}
+
+.web-button:hover {
+   filter: brightness(1.3);
+    transition: 0.8s;
+}
+
+.web-button:active {
+    box-shadow: 0 2px rgb(0, 35, 77);
+    transform: translateY(2px);
+    transition-duration: 0.1s;
+}
+
+.web-button {
+    box-shadow: 0 4px rgb(0, 35, 77);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.webpage video {
+    display: block;
+    margin: 20px auto;
+    width: 47%;
+    border-radius: 3px;
+}
+
+.settings-class {
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+/*Loader*/
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.75s ease, visibility 0.75s ease 0.75s;
+}
+
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.loader::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    border: 5px solid #fff;
+    border-top-color: #007ea5;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(0turn);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+
+/*Iframe resize*/
+@media (max-width: 900px) {
+    .iframe-player-turbowarp {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .iframe-player-turbowarp {
+        width: 98%;
+        margin: 10px auto;
+        border-radius: 5px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    .iframe-player-turbowarp {
+        width: 100%;
+        margin: 6px 0;
+        border-radius: 0;
+        padding: 6px 4px;
+    }
+}
